@@ -1,7 +1,10 @@
 # Intro To Flask
 
-
 ### Introduction
+Flask is a web framework for Python. It allows you to run Python code in a server hosted by your computer. It is famously used for developing web applications.  
+
+### Resources Needed
+- Python 3
 
 ### Setting Up
 
