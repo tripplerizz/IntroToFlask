@@ -28,8 +28,11 @@ Install Flask:
 
 ### Workshop
 
-Clone this repository (if you don't have git, you can also just donwload it as a ZIP file).
-- This repository contains a skeleton for your Flask project. It has the appropiate directory and file structure for you to easily get started.
+This repository contains a skeleton for your Flask project. It has the appropiate directory and file structure for you to easily get started.
+
+Take a look at the **app.py** file.
+- This is the Flask application that will receive HTTP requests and return HTTP responses.
+- It routes different endpoints (urls) to different Python functions. 
 
 
 
