@@ -9,8 +9,8 @@ Create an environment:
 - Clone this repository (if you don't have git, you can also just donwload it as a ZIP file).
 - Within the project folder (the one you just cloned/downloaded), create a **venv** (virtual environment) folder.
 
-    macOS: **python3 -m venv venv**
-    Windows: **py -3 -m venv venv**
+- macOS: **python3 -m venv venv**
+- Windows: **py -3 -m venv venv**
 
 Activate the environment:
 
