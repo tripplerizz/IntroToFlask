@@ -19,4 +19,8 @@ def goodDogs():
 def yourDog(name):
     return "My dog's name is " + name + "."
 
+@app.route('/myDog/Advanced/<name>')
+def yourDog(name):
+    return render_template("my-dog-advanced.html", name=name)
+
 app.run()
