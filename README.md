@@ -15,7 +15,7 @@ Create an environment:
 - macOS: **python3 -m venv venv**
 - Windows: **py -3 -m venv venv**
 
-Activate the environment:
+Activate the environment (Why use a virtual environment? Because we want our project to use dependencies that either don't exist on your system, or exist but are of a different version. Using a virtual environment allows to install dependencies to be used exclusively for our project):
 
 - macOS: **. venv/bin/activate**
 - Windows: **venv\Scripts\activate**
