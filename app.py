@@ -8,18 +8,16 @@ app = Flask(__name__)
 def hello():
     return render_template("index.html")
 
-@app.route('/badDogs')
-def badDogs():
-    return "There are no bad dogs in this world."
-
+# add more pictures and dogs to html tempmlate
 @app.route('/goodDogs')
 def goodDogs():
     return render_template("good-dogs.html")
 
-@app.route('/myDog/<name>')
-def yourDog(name):
-    return "My dog's name is " + name + "."
+# create route for 'badDogs'
 
+#create route for 'myDog/<name>'
+
+# add more info about dog to html template
 @app.route('/myDog/Advanced/<name>')
 def yourDogAdvanced(name):
     return render_template("my-dog-advanced.html", name=name)
