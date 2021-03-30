@@ -32,11 +32,11 @@ This repository contains a skeleton for your Flask project. It has the appropiat
 
 Take a look at the **app.py** file.
 - This is the Flask application that will receive HTTP requests and return HTTP responses.
-- It routes different endpoints (urls) to different Python functions. 
+- It routes different endpoints (URLs) to different Python functions. 
 
-On the templates folder, there are HTML files that the prior mentioned Python functions can render (using the functino **render_template**
+On the templates folder, there are HTML files that the prior mentioned Python functions can render (using the functino **render_template()**)
 
-Try routing different url endpoints to different Python functions that render differnet HTML pages!
+Try routing different URL endpoints to different Python functions that render differnet HTML pages!
 - This is a great example of using a backend (Flask) to handle your frontend (HTML)
 
 
