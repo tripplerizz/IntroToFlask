@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -8,12 +9,20 @@
 </head>
 
 <body>
-    <h1>The Dog Website</h1>
-    <p>This Website is for dogs. Including yours. Even if you don't have a dog. Lets just pretend!</p>
+  <h1>The Dog Website</h1>
+  <p>This Website is for dogs. Including yours. Even if you don't have a dog. Lets just pretend!</p>
+  <p>
+    <img src="{{url_for('static', filename='dogHomework.jpg')}}" width="25%"/>
+  </p>
 
-    <h2>Types of Dogs</h2>
+  <h2>Types of Dogs</h2>
+  <h3>
     <a href="/badDogs">Bad Dogs</a>
+  </h3>
+  <h3>
     <a href="/goodDogs">Good Dogs</a>
+  </h3>
 
 </body>
+
 </html>

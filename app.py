@@ -1,5 +1,6 @@
 from flask import Flask
 from flask import render_template
+from flask import url_for
 
 app = Flask(__name__)
 
@@ -20,7 +21,7 @@ def yourDog(name):
     return "My dog's name is " + name + "."
 
 @app.route('/myDog/Advanced/<name>')
-def yourDog(name):
+def yourDogAdvanced(name):
     return render_template("my-dog-advanced.html", name=name)
 
 app.run()
